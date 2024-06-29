@@ -6,6 +6,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -23,3 +24,62 @@ body {
 }
 
 /* Escreva a partir daqui */
+
+.container{
+    width:100%;
+    height: 100%;
+    background-color: #030406;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    color:#A00000;
+}
+container-red{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    background-color:#A00000;
+    width: 500px;
+    border-radius: 50%;
+}
+h1{
+    color: #FFFFFF;
+}
+.container-blue{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #0021D1;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.button-red{
+    background-color: #A00000;
+}
+.button-blue{
+    background-color: #0021D1;
+}
+.container-botao-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFFFFF;
+    
+}
+button{
+    color: #FFFFFF;
+}
+img{
+    width: 500px;
+}
+span{
+    color: #0021D1;
+}
+.red-font{
+    color: #A00000;
+}
